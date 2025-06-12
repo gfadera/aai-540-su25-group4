@@ -1,0 +1,22 @@
+{
+    "badger": 0,
+    "bat": 1,
+    "bird": 2,
+    "bobcat": 3,
+    "car": 4,
+    "cat": 5,
+    "coyote": 6,
+    "deer": 7,
+    "dog": 8,
+    "empty": 9,
+    "fox": 10,
+    "insect": 11,
+    "lizard": 12,
+    "mountain_lion": 13,
+    "opossum": 14,
+    "rabbit": 15,
+    "raccoon": 16,
+    "rodent": 17,
+    "skunk": 18,
+    "squirrel": 19
+}
