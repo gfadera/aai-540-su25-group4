@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.8
+    commands:
+      - pip install boto3 sagemaker papermill
+  build:
+    commands:
+      - papermill notebooks/02_preprocessing_split.ipynb output/02_preprocessing_split_out.ipynb
+      - papermill notebooks/03_model_training_tuning.ipynb output/03_model_training_tuning_out.ipynb
